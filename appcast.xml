@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Your App Name Updates</title>
+    <link>https://yourwebsite.com/yourapp</link>  <description>Updates for your app</description>
+    <language>en</language>
+    <item>
+      <title>Version X.Y.Z</title>
+      <link>https://play.google.com/store/apps/details?id=your.app.package</link>  <pubDate>2024-07-14</pubDate>  <enclosure url="https://path/to/your/app.apk" type="application/vnd.android.package-archive" length="1000000" />  <enclosure url="https://path/to/your/app.ipa" type="application/iphone-package-archive" length="2000000" />  <sparkle:version>X.Y.Z</sparkle:version>  <sparkle:shortVersionString>X.Y.Z</sparkle:shortVersionString>  <sparkle:whatsNew>
+        <![CDATA[
+          - Bug fixes and improvements
+          - New feature: ...
+        ]]>
+      </sparkle:whatsNew>  <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>  </item>
+  </channel>
+</rss>
